@@ -56,15 +56,55 @@
 		00D1EB6C26B9775D0035831E /* PersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				00D1EB6D26B9775E0035831E /* AppDelegate.swift */,
-				00D1EB6F26B9775E0035831E /* SceneDelegate.swift */,
-				00D1EB7126B9775E0035831E /* ViewController.swift */,
-				00D1EB7326B9775E0035831E /* Main.storyboard */,
-				00D1EB7626B977610035831E /* Assets.xcassets */,
-				00D1EB7826B977610035831E /* LaunchScreen.storyboard */,
-				00D1EB7B26B977610035831E /* Info.plist */,
+				00D1EB8126B979010035831E /* ViewController */,
+				00D1EB8326B9793E0035831E /* SupportingFiles */,
+				00D1EB8426B979510035831E /* Resources */,
 			);
 			path = PersonalQuiz;
+			sourceTree = "<group>";
+		};
+		00D1EB8126B979010035831E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00D1EB7126B9775E0035831E /* ViewController.swift */,
+				00D1EB8526B979ED0035831E /* Models */,
+				00D1EB8226B9791C0035831E /* Storyboards */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		00D1EB8226B9791C0035831E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				00D1EB7326B9775E0035831E /* Main.storyboard */,
+				00D1EB7826B977610035831E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		00D1EB8326B9793E0035831E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				00D1EB6D26B9775E0035831E /* AppDelegate.swift */,
+				00D1EB6F26B9775E0035831E /* SceneDelegate.swift */,
+				00D1EB7B26B977610035831E /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		00D1EB8426B979510035831E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00D1EB7626B977610035831E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00D1EB8526B979ED0035831E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +328,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A426P5VA2L;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +337,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MaxKucherIosSwift.PersonalQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +348,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A426P5VA2L;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +357,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MaxKucherIosSwift.PersonalQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
