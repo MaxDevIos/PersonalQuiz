@@ -27,7 +27,7 @@ extension Question {
                     Answer(text: "Стейк", type: .dog),
                     Answer(text: "Рыба", type: .cat),
                     Answer(text: "Морковь", type: .rubbit),
-                    Answer(text: "Кукуруза", type: .turtle),
+                    Answer(text: "Кукуруза", type: .turtle)
                 ]
             ),
             Question(
@@ -37,7 +37,7 @@ extension Question {
                     Answer(text: "Плавать", type: .dog),
                     Answer(text: "Спать", type: .cat),
                     Answer(text: "Обниматься", type: .rubbit),
-                    Answer(text: "Есть", type: .turtle),
+                    Answer(text: "Есть", type: .turtle)
                 ]
             ),
             Question(
@@ -47,9 +47,11 @@ extension Question {
                     Answer(text: "Ненавижу", type: .cat),
                     Answer(text: "Нервничаю", type: .rubbit),
                     Answer(text: "Не замечаю", type: .turtle),
-                    Answer(text: "Обожаю", type: .dog),
+                    Answer(text: "Обожаю", type: .dog)
                 ]
             )
         ]
     }
 }
+
+
